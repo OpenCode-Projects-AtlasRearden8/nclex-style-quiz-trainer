@@ -1,0 +1,16 @@
+{
+  "name": "nclex-style-quiz-trainer",
+  "version": "1.0.0",
+  "description": "Education-only NCLEX-style study quiz trainer: JSON question banks with explanations, practice and exam modes, wrong-answer review, and spaced re-asking of misses. Pure HTML/JS/CSS, no dependencies.",
+  "private": true,
+  "license": "MIT",
+  "author": "Asdale Dynamics, LLC",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "node tests/run.js",
+    "sync-bank": "node tools/sync-bank.js",
+    "check-bank": "node tools/check-bank.js"
+  }
+}

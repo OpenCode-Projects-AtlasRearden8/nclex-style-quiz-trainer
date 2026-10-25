@@ -1,0 +1,12 @@
+# OS editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+
+# Node local artifacts (the app itself has no dependencies)
+node_modules/
+npm-debug.log*
+package-lock.json.bak
+
+# Scratch
+*.tmp
